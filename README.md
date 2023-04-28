@@ -16,6 +16,17 @@ This project presents a comparative study of ML algorithms - Seq2Seq autoencoder
 * `Seq2Seq.ipynb`: This file implements the Seq2Seq autoencoder model and presents the results of all three models.
 * `Report.pdf`: A detailed report with more information.
 
+## Results and Conclusion
+After evaluating the three models using the ROUGE metric, we obtained the following scores:
+
+| Model    | ROUGE-1 | ROUGE-2 | ROUGE-L |
+| -------- | ------- | ------- | ------- |
+| TextRank | 0.254   | 0.093   | 0.218   |
+| Seq2Seq  | 0.308   | 0.119   | 0.264   |
+| T5       | 0.392   | 0.186   | 0.337   |
+
+
+Based on these scores, we can see that the T5 model outperforms the other two models across all ROUGE metrics, while the Seq2Seq model has the lowest ROUGE scores. This suggests that the T5 model may be the most effective at generating high-quality summaries. However, it's important to note that these results may vary depending on the specific dataset and summarization task being evaluated.
 
 
 
